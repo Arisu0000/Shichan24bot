@@ -102,9 +102,9 @@ async def deleteconnection(client, message):
 
         delcon = await delete_connection(str(userid), str(group_id))
         if delcon:
-            await message.reply_text("Successfully disconnected from this chat", quote=True)
+            await message.reply_text("Enti babu emi chestunav disconnected from this chat", quote=True)
         else:
-            await message.reply_text("This chat isn't connected to me!\nDo /connect to connect.", quote=True)
+            await message.reply_text("Enti babu emi chestunav chat isn't connected to me!\nDo /connect to connect.", quote=True)
 
 
 @Client.on_message(filters.private & filters.command(["connections"]))
