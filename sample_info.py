@@ -1,9 +1,9 @@
 # Bot information
 SESSION = 'Media_search'
 USER_SESSION = 'User_Bot'
-API_ID = 12345
-API_HASH = '0123456789abcdef0123456789abcdef'
-BOT_TOKEN = '123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11'
+API_ID = `24025974`
+API_HASH = '2abf0406f41a57b540bdefe8b12d114f'
+BOT_TOKEN = '6333427784:AAFggbhHJuOfeRPrVD4sqL8fHjmjg3wjayE'
 USERBOT_STRING_SESSION = ''
 
 # Bot settings
@@ -11,8 +11,8 @@ CACHE_TIME = 300
 USE_CAPTION_FILTER = False
 
 # Admins, Channels & Users
-ADMINS = [12345789, 'admin123', 98765432]
-CHANNELS = [-10012345678, -100987654321, 'channelusername']
+ADMINS = [, '', ]
+CHANNELS = [-, -, '']
 AUTH_USERS = []
 AUTH_CHANNEL = None
 
